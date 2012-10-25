@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f5f5f5"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Sender address:" />
+
+		<EditText
+		    android:id="@+id/editSenderAddress"
+		    android:layout_width="280dp"
+		    android:layout_height="wrap_content"
+		    android:text=""
+		    android:ems="10" >
+
+		    <requestFocus />
+		</EditText>
+
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Recipient address:" />
+
+		<EditText
+		    android:id="@+id/editRecipientAddress"
+		    android:layout_width="280dp"
+		    android:layout_height="wrap_content"
+		    android:text=""
+		    android:ems="10" />
+
+		<TextView
+		    android:id="@+id/textView3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Message:" />
+
+		<EditText
+		    android:id="@+id/messageId"
+		    android:layout_width="280dp"
+		    android:layout_height="160dp"
+		    android:ems="10"
+		    android:inputType="textMultiLine" />
+
+		<Button
+		    android:id="@+id/btnSendSms"
+		    android:layout_width="110dp"
+		    android:layout_height="wrap_content"
+		    android:onClick="onSendClick"
+		    android:text="Send" />
+
+	</LinearLayout>
+	
+</ScrollView>
