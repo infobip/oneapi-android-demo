@@ -58,7 +58,7 @@ public class SendSMSActivity extends Activity {
 				}
 					
 				Configuration configuration = new Configuration(username, password); 
-		        configuration.setApiUrl("http://api.parseco.com");
+		        configuration.setApiUrl("http://oneapi.infobip.com");
 		        
 		        SMSClient smsClient = new SMSClient(configuration);
 		        SMSRequest smsRequest = new SMSRequest(senderAddress, message, recipientAddress);

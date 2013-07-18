@@ -53,7 +53,7 @@ public class LookupActivity extends Activity {
 				}
 				
 				Configuration configuration = new Configuration(username, password); 
-		        configuration.setApiUrl("http://api.parseco.com");
+		        configuration.setApiUrl("http://oneapi.infobip.com");
 		        
 		        SMSClient smsClient = new SMSClient(configuration);
 		        Roaming roaming = smsClient.getHLRClient().queryHLR(lookupNumber);
