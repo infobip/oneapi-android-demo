@@ -1,5 +1,8 @@
-## ⚠️ Deprecated
+## 📦 Archived Repository
 
-**This repository is deprecated and no longer actively maintained, it will be archived in the near future.**
+**Note:** This repository has been **archived** and is no longer maintained. It is preserved here for historical reference only.
 
-You’re still welcome to browse or fork the code, but issues and pull requests will not be monitored.
+- No further updates will be made.
+- Issues and pull requests will not be monitored.
+
+Thank you to everyone who contributed!
